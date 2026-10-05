@@ -1,10 +1,15 @@
-import { useState } from 'react'
-import heroImg from './assets/hero.png'
+import RootLayout from './layouts/RootLayout'
 
 function App() {
 
   return (
-    <h1>Nova Store</h1>
+    <RootLayout>
+        <div style={{padding: '4rem 1rem', textAlign: 'center'}}>
+
+          <h1>Hello from Layout</h1>
+
+        </div>
+    </RootLayout>
   )
 }
 
