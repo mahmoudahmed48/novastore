@@ -26,9 +26,9 @@ function Button({variant = 'primary', size = 'md', fullWidth = false, loading = 
     .join(' ');
 
     return(
-        <Button className={classes} disabled={disabled || loading} {...rest} >
+        <button className={classes} disabled={disabled || loading} {...rest} >
             {loading ? 'Loading... ' : children}
-        </Button>
+        </button>
     )
 }
 
