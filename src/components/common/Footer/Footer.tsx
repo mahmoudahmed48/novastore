@@ -14,7 +14,7 @@ function Footer()
                     <div className={styles.brand}>
 
                         <h3 className={styles.logo}>NovaStore</h3>
-                        <p className='text-muted'>Modern E-commerce</p>
+                        <p className='text-muted'>Modern e-commerce for modern shoppers.</p>
 
                     </div>
 

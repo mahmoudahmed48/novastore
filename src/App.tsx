@@ -4,11 +4,11 @@ function App() {
 
   return (
     <RootLayout>
-        <div style={{padding: '4rem 1rem', textAlign: 'center'}}>
+          <div style={{padding: '4rem 1rem', textAlign: 'center'}}>
 
-          <h1>Hello from Layout</h1>
+            <h1>Hello from Layout</h1>
 
-        </div>
+          </div>
     </RootLayout>
   )
 }
